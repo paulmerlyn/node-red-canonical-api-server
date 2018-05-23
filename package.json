@@ -1,0 +1,20 @@
+{
+  "name": "nodered",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-red -v -u ./config -f ./config/flows.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "js2xmlparser": "^3.0.0",
+    "jsontoxml": "^1.0.0",
+    "node-red": "0.18.5",
+    "nodemon": "^1.17.4"
+  }
+}

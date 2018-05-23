@@ -1,0 +1,17 @@
+{
+   "api" : "canonical_creditCheck",
+   "identity": {
+       "firstName": "David",
+       "lastName": "Smith",
+       "driverLicenseNumber": "1234567890",
+       "driverLicenseState": "CA",
+       "socialSecurityNumber": "438507094"
+   },
+   "address": {
+       "street": "123 Oak St.",
+       "city": "Treeville",
+       "state": "CA",
+       "zip": "94067"
+   },
+   "carrier": "ATT"
+}
