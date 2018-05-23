@@ -18,11 +18,11 @@ const carrier = ''; // Must initialize before runtime
 const mockResponse = (accountNumber) => {
     return `
     <?xml version="1.0"?>
-    <${carrier}CreditCheck>
+    <CreditCheck>
         <responseTimeStamp>${dateNowFormatted}</responseTimeStamp>
         <Status>Approved</Status>
         <AccountNumber>${accountNumber}</AccountNumber>
-    </${carrier}CreditCheck>
+    </CreditCheck>
     </xml>
     `;
 }
