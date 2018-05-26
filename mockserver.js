@@ -6,7 +6,7 @@ const url = require('url');
 
 const port = 7000;
 const dateNowFormatted = dateformat(Date.now(), 'isoDateTime');
-
+console.log(`dateNowFormatted is: ` + dateNowFormatted);
 const generateRandomNumber = (min, max) => {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -34,5 +34,5 @@ http.createServer((request, response) => {
         const accountNumber = generateRandomNumber(100000000000, 1000000000000);
         response.write(mockResponse(accountNumber));
         response.end();
-    }, 2000);
+    }, 0);
 }).listen(port, () => console.log(`Listening on port ${port}...`));
