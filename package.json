@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node-red -v -u ./config -f ./config/flows.json",
+    "crstart": "node carrierresponderserver.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
